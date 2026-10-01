@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foldprint</title>
+<meta name="description" content="Help and contact for Foldprint, a paper-and-ink puzzle for iPhone, iPad and Mac where folding the sheet prints the ink onto the other half. On iPhone Duo you fold the phone itself.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --bg: #F5F0E6; --card: #FBF8F1; --ink: #2B2723; --soft: #685F54; --line: #D9CFBD; --accent: #AF3B24;
+    --cyan: #2A9FD6; --magenta: #E4407F; --yellow: #F6CB2A;
+    --serif: "New York", ui-serif, "Iowan Old Style", Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1B1917; --card: #24211E; --ink: #ECE6DA; --soft: #A79E90; --line: #3A342D; --accent: #F07A5F; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 var(--sans); }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+  header { text-align: center; margin-bottom: 36px; }
+  .mark { width: 88px; height: 48px; display: block; margin: 0 auto 18px; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; }
+  h1 { font-size: clamp(32px, 7vw, 44px); margin: 0 0 6px; letter-spacing: -0.01em; }
+  .tagline { color: var(--soft); margin: 0; font-size: 18px; }
+  h2 { font-size: 24px; margin: 0 0 12px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px 22px 8px; margin: 22px 0; }
+  ul.features { list-style: none; padding: 0; margin: 0 0 14px; }
+  ul.features li { padding: 10px 0 10px 28px; border-top: 1px solid var(--line); position: relative; }
+  ul.features li:first-child { border-top: 0; }
+  ul.features li::before { content: ""; position: absolute; left: 4px; top: 19px; width: 10px; height: 10px; border-radius: 2px; background: var(--accent); }
+  details { border-top: 1px solid var(--line); padding: 12px 0; }
+  details:first-of-type { border-top: 0; }
+  summary { cursor: pointer; font-weight: 600; list-style: none; padding-right: 24px; position: relative; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; position: absolute; right: 2px; top: -2px; color: var(--accent); font-size: 22px; font-weight: 400; }
+  details[open] summary::after { content: "\2013"; }
+  details p, details ol, details ul { margin: 10px 0 6px; color: var(--ink); }
+  details ol, details ul { padding-left: 22px; }
+  kbd { font: 14px/1 var(--sans); border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 5px; padding: 2px 6px; background: var(--card); }
+  .contact { font-size: 18px; }
+  footer { text-align: center; color: var(--soft); font-size: 15px; margin-top: 36px; }
+  footer a { margin: 0 6px; }
+  @media (max-width: 420px) { .card { padding: 18px 16px 6px; } body { font-size: 16px; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg class="mark" viewBox="0 0 88 48" aria-hidden="true">
+      <rect x="1" y="1" width="86" height="46" rx="3" style="fill:var(--card);stroke:var(--soft);stroke-width:2"/>
+      <path d="M44 1v46" style="stroke:var(--soft);stroke-width:1.5;stroke-dasharray:3 3;fill:none"/>
+      <rect x="12" y="10" width="12" height="12" rx="1.5" style="fill:var(--cyan)"/>
+      <rect x="20" y="18" width="12" height="12" rx="1.5" style="fill:var(--magenta);mix-blend-mode:multiply"/>
+      <rect x="12" y="26" width="12" height="12" rx="1.5" style="fill:var(--yellow)"/>
+      <rect x="64" y="10" width="12" height="12" rx="1.5" style="fill:var(--cyan);opacity:.8"/>
+      <rect x="56" y="18" width="12" height="12" rx="1.5" style="fill:var(--magenta);opacity:.8;mix-blend-mode:multiply"/>
+      <rect x="64" y="26" width="12" height="12" rx="1.5" style="fill:var(--yellow);opacity:.8"/>
+    </svg>
+    <h1>Foldprint</h1>
+    <p class="tagline">Fold. Press. Reveal. A paper-and-ink puzzle for iPhone, iPad and Mac.</p>
+  </header>
+
+  <p>Stamp wet ink on one half of a sheet, fold it along the crease, and the ink prints onto the other half. Every level shows the print both halves need to match. Plan which ink is still wet when you press, because a fold prints everything wet, both ways at once, and then the sheet is dry.</p>
+  <p>On iPhone Duo the crease sits on the phone's own fold, so you can close the phone to press the print. On every other device the Fold button, a two-finger pinch or the space bar does the same.</p>
+
+  <div class="card">
+    <h2>In the game</h2>
+    <ul class="features">
+      <li>120 prints in eight chapters: Paper, Ink, Blot, Tape, Pre-print, Sequence, Holes and Press Master. Chapter 1 is free.</li>
+      <li>Cyan, magenta and yellow ink that overlaps like the real thing, into violet, green, orange and black.</li>
+      <li>A Daily Print: one new sheet every day, the same for everyone, free, with a Game Center leaderboard.</li>
+      <li>Unlimited undo, a free hint on every level, and no timers in the chapters.</li>
+      <li>The Creator (with Foldprint Complete): make your own prints, check them with the solver and share them as a code or a file.</li>
+      <li>The Pressroom Pass, an optional subscription: ten new prints every week in the Pressroom, and the full Daily Print archive with your past results.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Support</h2>
+    <p class="contact">Open an issue on <a href="https://github.com/aibrahim11/foldprint/issues">GitHub</a>. It's just me, so a reply can take a day or two.</p>
+    <p>If something's broken, say which device you're on, your iOS, iPadOS or macOS version, and the app version, which is at the bottom of the app's Settings. Issues are public, so please leave out anything personal.</p>
+  </div>
+
+  <div class="card">
+    <h2>Questions</h2>
+
+    <details>
+      <summary>How do I fold?</summary>
+      <p>Press <strong>Fold</strong> on the level screen. On iPhone and iPad you can also pinch the two halves together with two fingers. On a Mac, or an iPad with a keyboard, press <kbd>Space</kbd> (on the Mac also Game &rarr; Fold, <kbd>&#8984;</kbd><kbd>Return</kbd>). Help &rarr; Keyboard Shortcuts on the Mac lists every key.</p>
+    </details>
+
+    <details>
+      <summary>Do I have to fold my iPhone Duo?</summary>
+      <p>No. Folding the phone is a nice extra, never a requirement. The Fold button is always on screen, the pinch works too, and you can turn off pressing by closing the phone in Settings. Closing the phone when nothing is wet does nothing, and a press made by closing the phone can be undone like any other move.</p>
+      <p>Folded part way, the phone shows a faint preview of the print. Closed, the outer display keeps the level playable with the on-screen Fold button.</p>
+    </details>
+
+    <details>
+      <summary>What's free, and what do the purchases add?</summary>
+      <p>Free: all of chapter 1 (15 prints) and each day's Daily Print, on its day, with no ads. The free part never expires.</p>
+      <p><strong>Foldprint Complete</strong> is a one-time purchase: chapters 2 to 8, the Creator and the Cotton, Newsprint and Washi papers. Buy it once and it's yours on iPhone, iPad and Mac.</p>
+      <p><strong>Pressroom Pass</strong> is an optional subscription, monthly, or yearly with a 7-day free trial: ten new prints every week and the full Daily Print archive with your past results. It never locks the chapters or today's Daily Print. Family Sharing works with both.</p>
+    </details>
+
+    <details>
+      <summary>How do I restore my purchases?</summary>
+      <ol>
+        <li>Check that you're signed in with the Apple Account you bought with.</li>
+        <li>In Foldprint, open Settings and choose <strong>Restore Purchases</strong>. The purchase screen has a Restore button as well.</li>
+      </ol>
+      <p>Your purchases then work on every iPhone, iPad and Mac signed in to that Apple Account, and for your Family Sharing group.</p>
+    </details>
+
+    <details>
+      <summary>How do I cancel the Pressroom Pass?</summary>
+      <p>On iPhone or iPad: open the <strong>Settings</strong> app, tap your name, then <strong>Subscriptions</strong>, then <strong>Foldprint</strong>, then <strong>Cancel Subscription</strong>.</p>
+      <p>On a Mac: open the <strong>App Store</strong> app, click your name, then <strong>Account Settings</strong>, and find <strong>Subscriptions</strong>.</p>
+      <p>Subscribers also get a Manage Subscription button in the app's Settings. Cancel at least 24 hours before the renewal date, or before the free trial ends, or the next period is charged. You keep the Pass until the end of the period you've paid for. Apple's help article on <a href="https://support.apple.com/118428">cancelling subscriptions</a> has more.</p>
+    </details>
+
+    <details>
+      <summary>How do I get a refund?</summary>
+      <p>Apple takes the payment, so I can't issue refunds myself. You can ask Apple for one at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+    </details>
+
+    <details>
+      <summary>When does the Daily Print change?</summary>
+      <p>At midnight UTC, the same moment for everyone. In New York that's 8 pm the evening before (7 pm in winter), and in Tokyo 9 am.</p>
+      <p>The leaderboard ranks fewer moves first, then less time. Your first solve of the day goes to Game Center if you solve it on its own day without a hint. Game Center's own screens show the score as one long number (moves and seconds packed together); the leaderboard inside Foldprint shows it as moves and time.</p>
+    </details>
+
+    <details>
+      <summary>I don't see leaderboards or achievements.</summary>
+      <p>Sign in to Game Center: on iPhone or iPad in Settings &rarr; Game Center, on a Mac in System Settings &rarr; Game Center. Foldprint asks for it after your first solve or when you open a leaderboard. You can play without it.</p>
+    </details>
+
+    <details>
+      <summary>Does my progress move between my devices?</summary>
+      <p>Yes, if iCloud is on: your stars, solved prints and Daily Print streak sync through your own iCloud account between iPhone, iPad and Mac. Prints you make in the Creator stay on the device where you made them in this version; share them as a code or a file to move them.</p>
+    </details>
+
+    <details>
+      <summary>How do I share a print I made?</summary>
+      <p>In the Creator, a print the solver has checked can be shared as a short code or as a <code>.foldprint</code> file. Anyone with Foldprint can open it and play it for free. Only Creator prints can be shared this way.</p>
+    </details>
+
+    <details>
+      <summary>Accessibility</summary>
+      <p>Foldprint supports VoiceOver (every cell reads its ink and what the target needs), optional ink marks that tell the colours apart without colour, larger text, Reduce Motion and full keyboard play on the Mac. Tell me if something doesn't work for you.</p>
+    </details>
+  </div>
+
+  <footer>
+    <p><a href="privacy.html">Privacy Policy</a> &middot; <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a></p>
+    <p>&copy; 2026 Abdelrahman Ibrahim</p>
+  </footer>
+</main>
+</body>
+</html>
