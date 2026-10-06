@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foldprint press kit</title>
+<meta name="description" content="Press kit for Foldprint, a paper-and-ink fold puzzle for iPhone, iPad and Mac: fact sheet, screenshots, the iPhone Duo hinge press on video, and artwork.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --bg: #F5F0E6; --card: #FBF8F1; --ink: #2B2723; --soft: #685F54; --line: #D9CFBD; --accent: #AF3B24;
+    --cyan: #2A9FD6; --magenta: #E4407F; --yellow: #F6CB2A;
+    --serif: "New York", ui-serif, "Iowan Old Style", Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1B1917; --card: #24211E; --ink: #ECE6DA; --soft: #A79E90; --line: #3A342D; --accent: #F07A5F; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 var(--sans); }
+  main { max-width: 920px; margin: 0 auto; padding: 48px 20px 64px; }
+  header { text-align: center; margin-bottom: 32px; }
+  .icon { width: 96px; height: 96px; border-radius: 22px; display: block; margin: 0 auto 16px; box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; }
+  h1 { font-size: clamp(32px, 7vw, 44px); margin: 0 0 6px; letter-spacing: -0.01em; }
+  .tagline { color: var(--soft); margin: 0; font-size: 18px; }
+  h2 { font-size: 24px; margin: 0 0 12px; }
+  h3 { font-size: 19px; margin: 18px 0 10px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px 22px 10px; margin: 22px 0; }
+  .prose { max-width: 680px; }
+  video { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); background: #000; display: block; }
+  .caption { color: var(--soft); font-size: 15px; margin: 10px 0 12px; }
+  dl.facts { display: grid; grid-template-columns: 9.5em 1fr; gap: 10px 18px; margin: 0 0 14px; }
+  dl.facts dt { font-weight: 600; }
+  dl.facts dd { margin: 0; }
+  .grid { display: grid; gap: 14px; margin: 0 0 16px; }
+  .grid.land { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .grid.port { grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); }
+  .grid a { display: block; }
+  .grid img { width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid var(--line); }
+  .wide img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--line); display: block; }
+  .note { color: var(--soft); font-size: 15px; }
+  footer { text-align: center; color: var(--soft); font-size: 15px; margin-top: 36px; }
+  footer a { margin: 0 6px; }
+  @media (max-width: 560px) { dl.facts { grid-template-columns: 1fr; gap: 2px 0; } dl.facts dd { margin-bottom: 10px; } .card { padding: 18px 16px 8px; } body { font-size: 16px; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="icon" src="img/app-icon.jpg" alt="The Foldprint app icon: a cyan, magenta and yellow print, mirrored across a crease">
+    <h1>Foldprint press kit</h1>
+    <p class="tagline">A paper-and-ink fold puzzle for iPhone, iPad and Mac.</p>
+  </header>
+
+  <section class="card prose">
+    <h2>About</h2>
+    <p>Foldprint is a paper-and-ink puzzle. You stamp wet cyan, magenta and yellow ink on a sheet and fold it in half. Both halves have to match a target print. Wet ink on each half prints mirrored onto the other, and inks mix where they overlap. Every fold dries the ink, and only wet ink prints. A solver proves every par is the fewest moves possible.</p>
+    <p>On iPhone Duo you can fold the phone itself. The crease sits on the hardware fold. As the phone folds, a faint preview of the print appears. Closing the phone makes the press, and the sheet peels back on the new print when you reopen it. With the phone shut you keep playing on the outer display. You don't have to close the phone to press: the Fold button works in every pose.</p>
+  </section>
+
+  <section class="card">
+    <h2>The hinge press on iPhone Duo</h2>
+    <video controls playsinline muted preload="metadata" poster="img/hinge-poster.jpg">
+      <source src="foldprint-iphone-duo-hinge-press.mp4" type="video/mp4">
+    </video>
+    <p class="caption">Level 7-5, Perforation. The phone folds partway to show the preview, closes to press the print, then opens on the finished sheet. Recorded in the iPhone Duo simulator. <a href="foldprint-iphone-duo-hinge-press.mp4" download>Download the video (MP4)</a></p>
+  </section>
+
+  <section class="card">
+    <h2>Fact sheet</h2>
+    <dl class="facts">
+      <dt>Developer</dt><dd>Abdelrahman Ibrahim, solo developer</dd>
+      <dt>Release date</dt><dd>October 23, 2026</dd>
+      <dt>Platforms</dt><dd>iPhone, optimized for iPhone Duo; iPad; Mac. One purchase covers all three.</dd>
+      <dt>Content</dt><dd>120 levels in eight chapters, a Daily Print that is the same for everyone, weekly Pressroom packs and a level Creator</dd>
+      <dt>Price</dt><dd>Free to download. Chapter 1 and each day's Daily Print, on its day, need no purchase. Foldprint Complete, a one-time purchase, adds chapters 2 to 8, the Creator and three papers. It costs $14.99 for the first two weeks after release, then $19.99. The Pressroom Pass is an optional subscription for the weekly packs, the Daily Print archive and animated papers, at $2.99 a month or $19.99 a year with a one-week free trial. Prices are in US dollars.</dd>
+      <dt>Accessibility</dt><dd>VoiceOver reads what ink each cell still needs. Ink marks give each ink its own pattern for colour-blind players. With Reduce Motion on, the press fades instead of folding in 3D.</dd>
+      <dt>Privacy</dt><dd>Foldprint has no ads and no accounts, and it collects no data.</dd>
+      <dt>Language</dt><dd>English</dd>
+      <dt>Contact</dt><dd>Open an issue on <a href="https://github.com/aibrahim11/foldprint/issues">GitHub</a>. Issues are public, so please leave out anything personal.</dd>
+    </dl>
+    <p class="note">You're welcome to use the screenshots, artwork and video on this page in coverage of Foldprint.</p>
+  </section>
+
+  <section class="card">
+    <h2>Screenshots</h2>
+    <p class="note">Each image opens the full-size PNG.</p>
+    <h3>iPhone Duo, inner display</h3>
+    <div class="grid land">
+      <a href="full/foldprint-duo-inner-1-press.png"><img src="img/duo-inner-1-press.jpg" alt="Level 7-5 mid-fold across the hinge, iPhone Duo inner display. Headline: Fold your phone to print." loading="lazy"></a>
+      <a href="full/foldprint-duo-inner-2-solved.png"><img src="img/duo-inner-2-solved.jpg" alt="The solved print of level 7-5, iPhone Duo inner display. Headline: Three inks that mix." loading="lazy"></a>
+      <a href="full/foldprint-duo-inner-3-daily.png"><img src="img/duo-inner-3-daily.jpg" alt="The Daily Print, iPhone Duo inner display. Headline: A new sheet every day." loading="lazy"></a>
+      <a href="full/foldprint-duo-inner-4-pressroom.png"><img src="img/duo-inner-4-pressroom.jpg" alt="The Pressroom, iPhone Duo inner display. Headline: Ten more on Mondays." loading="lazy"></a>
+      <a href="full/foldprint-duo-inner-5-creator.png"><img src="img/duo-inner-5-creator.jpg" alt="The Creator, iPhone Duo inner display. Headline: Make your own prints." loading="lazy"></a>
+    </div>
+    <h3>iPhone Duo, outer display</h3>
+    <div class="grid port">
+      <a href="full/foldprint-duo-outer-1-press.png"><img src="img/duo-outer-1-press.jpg" alt="Level 7-5 mid-fold, iPhone Duo outer display. Headline: Fold to print." loading="lazy"></a>
+      <a href="full/foldprint-duo-outer-2-solved.png"><img src="img/duo-outer-2-solved.jpg" alt="The solved print of level 7-5, iPhone Duo outer display. Headline: Three inks that mix." loading="lazy"></a>
+      <a href="full/foldprint-duo-outer-3-daily.png"><img src="img/duo-outer-3-daily.jpg" alt="The Daily Print, iPhone Duo outer display. Headline: A new sheet every day." loading="lazy"></a>
+      <a href="full/foldprint-duo-outer-4-pressroom.png"><img src="img/duo-outer-4-pressroom.jpg" alt="The Pressroom, iPhone Duo outer display. Headline: Ten more on Mondays." loading="lazy"></a>
+      <a href="full/foldprint-duo-outer-5-creator.png"><img src="img/duo-outer-5-creator.jpg" alt="The Creator, iPhone Duo outer display. Headline: Make your own prints." loading="lazy"></a>
+    </div>
+    <h3>iPhone</h3>
+    <div class="grid port">
+      <a href="full/foldprint-iphone-1-press.png"><img src="img/iphone-1-press.jpg" alt="Level 7-5 mid-fold, iPhone. Headline: Fold to print." loading="lazy"></a>
+      <a href="full/foldprint-iphone-2-solved.png"><img src="img/iphone-2-solved.jpg" alt="The solved print of level 7-5, iPhone. Headline: Three inks that mix." loading="lazy"></a>
+      <a href="full/foldprint-iphone-3-daily.png"><img src="img/iphone-3-daily.jpg" alt="The Daily Print, iPhone. Headline: A new sheet every day." loading="lazy"></a>
+      <a href="full/foldprint-iphone-4-pressroom.png"><img src="img/iphone-4-pressroom.jpg" alt="The Pressroom, iPhone. Headline: Ten more on Mondays." loading="lazy"></a>
+      <a href="full/foldprint-iphone-5-creator.png"><img src="img/iphone-5-creator.jpg" alt="The Creator, iPhone. Headline: Make your own prints." loading="lazy"></a>
+      <a href="full/foldprint-iphone-6-tutorial.png"><img src="img/iphone-6-tutorial.jpg" alt="The first level with its pencil note, iPhone. Headline: Straight to the sheet." loading="lazy"></a>
+    </div>
+    <h3>iPad and Mac</h3>
+    <div class="grid port">
+      <a href="full/foldprint-ipad-1-press.png"><img src="img/ipad-1-press.jpg" alt="Level 7-5 mid-fold, iPad. Headline: Fold to print." loading="lazy"></a>
+    </div>
+    <div class="grid land">
+      <a href="full/foldprint-mac-1-press.png"><img src="img/mac-1-press.jpg" alt="Level 7-5 mid-fold, Mac. Headline: Fold to print." loading="lazy"></a>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Artwork</h2>
+    <div class="wide"><a href="full/foldprint-header-fold-to-print.png"><img src="img/header-fold-to-print.jpg" alt="Header art: level 7-5 mid-fold on iPhone Duo. Headline: Fold to print." loading="lazy"></a></div>
+    <p class="caption">Header art, 3840 &times; 1646. The <a href="full/foldprint-app-icon.png">app icon</a> is 1024 &times; 1024.</p>
+  </section>
+
+  <footer>
+    <p><a href="../">Support</a> <a href="../privacy.html">Privacy Policy</a></p>
+    <p>&copy; 2026 Abdelrahman Ibrahim</p>
+  </footer>
+</main>
+</body>
+</html>
